@@ -1,0 +1,102 @@
+html {
+  font-size: 62.5% ; 
+}
+/*bodyからcontainerへ*/
+.container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+   min-height: 100%;
+}
+.main-header {
+  padding: 7.5% 0;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+.main-header img {
+  width : 13%
+}
+
+
+/* ここから */
+header {
+  height: 50px;
+  background-color: #2b2b2b;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+}
+header ul a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 10px;
+}
+header li {
+  list-style: none;
+}
+header .left {
+  padding: 15px;
+  float:left
+}
+header .right {
+  padding: 15px;
+  float:right;
+}
+
+.about {
+  padding: 20px;
+}
+.about h1{
+  font-size: 1.5rem;
+}
+.about p {
+  font-size: 0.8rem;
+}
+
+/* ここから */
+.function {
+  padding: 20px;
+  background-color: #d3d3d3;
+}
+.function-images {
+  display: table;
+  margin: 0 auto;
+}
+.function-images li {
+  vertical-align: middle;
+  display: table-cell;
+}
+.function-image {
+  margin: 0 20px;
+}
+.key{
+  width: 50%;
+}
+.mails{
+  width: 50%;
+}
+.girls{
+  width: 50%;
+}
+.comment {
+  width: 50%;
+}
+/* ここまでがfunction部分の実装 */
+
+footer {
+  height: 70px;
+  width: 100%;
+  color: #fff;
+  background-color: #283A4B;
+  position: absolute;
+  display: table;
+}
+footer p {
+  font-size: 0.8rem;
+  display: table-cell;
+  vertical-align: middle;
+}
